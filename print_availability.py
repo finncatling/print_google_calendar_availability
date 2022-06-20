@@ -5,13 +5,11 @@ import os.path
 import sys
 
 import pytz
-from dateutil.parser import isoparse
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-from IPython import embed
 
 # script modified from https://developers.google.com/calendar/api/quickstart/python
 
