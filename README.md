@@ -8,11 +8,13 @@ Python script which prints out a summary of your free slots from your Google cal
 
 1. Clone this repo. 
 
-2. Install the packages you need: `pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
+2. Install the [poetry environment manager](https://python-poetry.org/docs/) and Python >=3.8
 
-3. Get Google credentials. You want to create credentials for a desktop application, as described [in this link](https://developers.google.com/workspace/guides/create-credentials#oauth-client-id) - click on "Desktop app".
+3. Setup the project's Python environment: `poetry install`
 
-4. Change the constants at the [top of the script](https://github.com/epierson9/print_google_calendar_availability/blob/ddb2a171eac7b81cf9e14dc421ea5b032979d262/print_availability.py#L17). 
+4. Get Google credentials. You want to create credentials for a desktop application, as described [in this link](https://developers.google.com/workspace/guides/create-credentials#oauth-client-id) - click on "Desktop app".
+
+5. Change the constants at the [top of the script](https://github.com/epierson9/print_google_calendar_availability/blob/ddb2a171eac7b81cf9e14dc421ea5b032979d262/print_availability.py#L17). 
 
 # Usage
  
