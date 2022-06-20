@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "print_google_calendar_availability"
+version = "0.1.0"
+description = "Python script which prints out a summary of your free slots from your Google calendar(s) so you can paste into a scheduling email."
+authors = ["Emma Pierson <emma.pierson@cornell.edu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pytz = "^2022.1"
+google-api-python-client = "^2.51.0"
+google-auth-oauthlib = "^0.5.2"
+python-dateutil = "^2.8.2"
+ipython = "^8.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
